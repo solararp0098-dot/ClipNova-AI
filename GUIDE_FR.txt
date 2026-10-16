@@ -1,0 +1,19 @@
+CLIPNOVA AI — GUIDE DE PUBLICATION
+
+Ce dossier contient un prototype de génération vidéo IA réel avec Wan 2.1. Je ne peux pas publier dans ton compte à ta place : tu devras créer le compte et téléverser les fichiers.
+
+1. Ouvre https://huggingface.co/ et crée un compte, puis confirme ton e-mail.
+2. Pour créer gratuitement ton propre Space Gradio avec ZeroGPU, les comptes personnels doivent être en règle et avoir au moins 30 jours. Si ton compte est neuf, cette option peut ne pas être disponible tout de suite.
+3. Va sur https://huggingface.co/spaces puis clique sur Create new Space.
+4. Nom : clipnova-ai (ou un nom libre). SDK : Gradio. Visibilité : Public.
+5. Si l'option matérielle apparaît, choisis ZeroGPU. Ne choisis pas de GPU payant si tu veux rester à 0 €.
+6. Crée le Space. Dans l'onglet Files, téléverse app.py, requirements.txt et README.md à la racine du Space (pas dans un sous-dossier).
+7. Attends le build. Le premier démarrage peut prendre longtemps car le modèle est volumineux. Si ça échoue, regarde l'onglet Logs.
+8. Quand le Space démarre, son URL publique sera affichée sur la page et ressemblera à https://TON-PSEUDO-clipnova-ai.hf.space.
+
+À SAVOIR
+- Le GPU gratuit a un quota quotidien limité et peut être occupé. Ce n'est pas une génération illimitée.
+- Le modèle et ses dépendances peuvent évoluer ; si le build échoue, copie le message des Logs pour que je t'aide à le corriger.
+- Les Spaces statiques sont gratuits, mais ne peuvent pas exécuter à eux seuls un modèle vidéo lourd.
+- Ce prototype génère une courte vidéo depuis un prompt. Il ne fait pas encore la conversion automatique d'une URL YouTube en Shorts, ni les comptes utilisateurs ou le stockage cloud.
+- Ne publie pas de clés privées ni de données personnelles. Utilise uniquement des contenus que tu as le droit d'utiliser.
